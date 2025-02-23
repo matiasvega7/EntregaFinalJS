@@ -104,7 +104,7 @@ function mostrarResultado() {
 
   nombreCasa.textContent = casaGanadora;
 
-  imagenCasa.src = `imagen/${casaGanadora.toLowerCase()}.png`; 
+  imagenCasa.src = `/imagen/${casaGanadora.toLowerCase()}.png`; 
 
   resultado.style.animation = "fadeIn 1.5s ease-in-out";
 }
