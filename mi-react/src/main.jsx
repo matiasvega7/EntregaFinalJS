@@ -100,6 +100,7 @@ function mostrarResultado() {
   nextBtn.style.display = "none";
   resultado.style.display = "block";
 
+
   let casaGanadora = Object.keys(respuestas).reduce((a, b) => respuestas[a] > respuestas[b] ? a : b);
 
   nombreCasa.textContent = casaGanadora;
